@@ -10,7 +10,7 @@ public class methods {
 	public void secondnonstaticmethod() {
 	System.out.println("second non static method");	
 	}
-	public void thirdnonstaticmethod() {
+	public void fourth() {
 	System.out.println("third non static method");	
 	}
 	public static void main(String[] args) {
@@ -18,6 +18,6 @@ public class methods {
     methods kk=new methods();
     kk.nonstaticmethod();
     kk.nonstaticmethod();
-    kk.thirdnonstaticmethod();
+    kk.fourth();
 	}
 }
