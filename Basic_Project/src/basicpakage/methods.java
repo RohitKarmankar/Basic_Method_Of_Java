@@ -13,6 +13,9 @@ public class methods {
 	public void fourth() {
 	System.out.println("third non static method");	
 	}
+	public void fifth() {
+	System.out.println("fifth change");	
+	}
 	public static void main(String[] args) {
     staticmethod();
     methods kk=new methods();
