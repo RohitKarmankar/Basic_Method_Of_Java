@@ -8,6 +8,9 @@ public class methods {
 	public void nonstaticmethod() {
 	System.out.println("non static method");	
 	}
+	public void secondnonstaticmethod() {
+	System.out.println("second non static method");	
+	}
 	public static void main(String[] args) {
     staticmethod();
     methods kk=new methods();
